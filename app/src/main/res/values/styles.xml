@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ActionBar.SemiTransp" parent="Base.Widget.AppCompat.ActionBar">
+        <item name="displayOptions">showHome|showTitle</item>
+        <item name="background">@drawable/toolbar_background</item>
+    </style>
+
+    <style name="AppTheme.SemiTranspActionBar" parent="@style/AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.SemiTransp</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+</resources>
